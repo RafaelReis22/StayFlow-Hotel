@@ -4,7 +4,7 @@
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3-brightgreen)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-RLS%20Enforced-blue)
 
-Este projeto é uma transformação **Especialista** do sistema legado "Sistema Hotel". Evoluímos uma aplicação Desktop Swing para uma infraestrutura moderna de **Gerenciamento Hoteleiro**, baseada na arquitetura **StayFlow **.
+Este projeto é uma transformação **Especialista** do sistema legado "Sistema Hotel". Evoluímos uma aplicação Desktop Swing para uma infraestrutura moderna de **Gerenciamento Hoteleiro**, baseada na arquitetura **StayFlow**.
 
 ---
 
@@ -15,8 +15,7 @@ Conforme solicitado, o sistema implementa uma arquitetura robusta e escalável:
 ```mermaid
 graph TD
     User((Usuário)) -->|Interação| Frontend[Frontend Web - React/Vite]
-    Frontend -->|API Request| Gateway[StayFlow API Gateway]
-    Gateway -->|Forward| Backend[StayFlow Backend - Spring Boot]
+    Frontend -->|API Request| Backend[StayFlow Backend - Spring Boot]
     Backend -->|Data Access| Postgres[PostgreSQL Database]
 ```
 
