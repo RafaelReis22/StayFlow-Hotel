@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: stayflow-hotel
+  datasource:
+    url: jdbc:postgresql://localhost:5444/stayflow_db
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8081 # Mudamos para 8081 para evitar conflitos!
+
+logging:
+  level:
+    com.argus.hotel: DEBUG
