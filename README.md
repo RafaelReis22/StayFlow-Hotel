@@ -4,7 +4,7 @@
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3-brightgreen)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-RLS%20Enforced-blue)
 
-Este projeto é uma transformação **Especialista** do sistema legado "Sistema Hotel". Evoluímos uma aplicação Desktop Swing para uma infraestrutura moderna de **Gerenciamento Hoteleiro**, baseada na arquitetura **StayFlow Gateway**.
+Este projeto é uma transformação **Especialista** do sistema legado "Sistema Hotel". Evoluímos uma aplicação Desktop Swing para uma infraestrutura moderna de **Gerenciamento Hoteleiro**, baseada na arquitetura **StayFlow G**.
 
 ---
 
